@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steganography Secure File Transfer</title>
+</head>
+<body>
+    <h1>Steganography Secure File Transfer</h1>
+
+    <h2>Encode Message into Image</h2>
+    <form action="/encode" method="POST" enctype="multipart/form-data">
+        <label for="message">Message to Encrypt:</label>
+        <input type="text" id="message" name="message" required>
+        <br><br>
+        <label for="file">Choose an image:</label>
+        <input type="file" id="file" name="file" accept="image/*" required>
+        <br><br>
+        <button type="submit">Encode</button>
+    </form>
+
+    <h2>Decode Message from Image</h2>
+    <form action="/decode" method="POST" enctype="multipart/form-data">
+        <label for="file">Choose an encoded image:</label>
+        <input type="file" id="file" name="file" accept="image/*" required>
+        <br><br>
+        <button type="submit">Decode</button>
+    </form>
+</body>
+</html>
