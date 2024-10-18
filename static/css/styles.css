@@ -1,0 +1,140 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../images/aibg.webp'); /* Adjust path based on your folder structure */
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    color: white;
+    margin: 0;
+    padding: 30px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.tagline {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #ddd;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.taskbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+}
+
+.taskbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.taskbar img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+}
+
+form label {
+    font-size: 16px;
+    color: black;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+form input[type="file"] {
+    display: none;
+}
+
+.file-label {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.file-label img {
+    width: 24px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.file-label:hover {
+    background-color: #45a049;
+}
+
+.filename {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #333;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#decodedMessage {
+    font-size: 16px;
+    color: green;
+    margin-top: 20px;
+    display: none;
+}
+
+.reset-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.reset-container button {
+    background-color: #FF6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset-container button:hover {
+    background-color: #FF4500;
+}

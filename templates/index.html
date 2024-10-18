@@ -4,27 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steganography Secure File Transfer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
+    <!-- Taskbar Section -->
+    <div class="taskbar">
+        <div>
+            <strong>Prakhar Gupta</strong>
+            <a href="https://github.com/prakhar8888">
+                <img src="{{ url_for('static', filename='images/github-icon.jpeg') }}" alt="GitHub">GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/prakhar-gupta-63191524a">
+                <img src="{{ url_for('static', filename='images/linkedin-icon.png') }}" alt="LinkedIn">LinkedIn
+            </a>
+        </div>
+        <div>
+            <strong> DEVELOPERS </strong>
+        </div>
+        <div>
+            <strong>Utkarsh Pandey</strong>
+            <a href="https://github.com/UraniumUtkarsh">
+                <img src="{{ url_for('static', filename='images/github-icon.jpeg') }}" alt="GitHub">GitHub
+            </a>
+            <a href="https://linkedin.com/in/uranium-utkarsh-pandey">
+                <img src="{{ url_for('static', filename='images/linkedin-icon.png') }}" alt="LinkedIn">LinkedIn
+            </a>
+        </div>
+    </div>
+
+    <!-- Main Header -->
     <h1>Steganography Secure File Transfer</h1>
+    <h3 class="tagline"><i>Hiding Secrets, Safeguarding Privacy.</i></h3>
 
-    <h2>Encode Message into Image</h2>
-    <form action="/encode" method="POST" enctype="multipart/form-data">
-        <label for="message">Message to Encrypt:</label>
-        <input type="text" id="message" name="message" required>
-        <br><br>
-        <label for="file">Choose an image:</label>
-        <input type="file" id="file" name="file" accept="image/*" required>
-        <br><br>
-        <button type="submit">Encode</button>
-    </form>
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Encode Section -->
+        <div class="form-container">
+            <h2>Encode Message into Image</h2>
+            <form action="/encode" method="POST" enctype="multipart/form-data">
+                <label for="message">Message to Encrypt:</label>
+                <input type="text" id="message" name="message" required>
+                <br><br>
+                <label for="file-encode" class="file-label">
+                    <img src="{{ url_for('static', filename='images/upload-icon.png') }}" alt="Choose Image">Choose an image
+                </label>
+                <input type="file" id="file-encode" name="file" accept="image/*" required onchange="displayFilename('file-encode', 'filename-encode')">
+                <span class="filename" id="filename-encode"></span>
+                <br><br>
+                <button type="submit">Encode</button>
+            </form>
+        </div>
 
-    <h2>Decode Message from Image</h2>
-    <form action="/decode" method="POST" enctype="multipart/form-data">
-        <label for="file">Choose an encoded image:</label>
-        <input type="file" id="file" name="file" accept="image/*" required>
-        <br><br>
-        <button type="submit">Decode</button>
+        <!-- Decode Section -->
+        <div class="form-container">
+            <h2>Decode Message from Image</h2>
+            <form id="decodeForm" method="POST" enctype="multipart/form-data">
+                <label for="file-decode" class="file-label">
+                    <img src="{{ url_for('static', filename='images/upload-icon.png') }}" alt="Choose Encoded Image">Choose an encoded image
+                </label>
+                <input type="file" id="file-decode" name="file" accept="image/*" required onchange="displayFilename('file-decode', 'filename-decode')">
+                <span class="filename" id="filename-decode"></span>
+                <br><br>
+                <button type="button" onclick="submitDecodeForm()">Decode</button>
+            </form>
+
+            <!-- Section to display decoded message -->
+            <div id="decodedMessage">Decoded Message: <span id="decodedText"></span></div>
+        </div>
+    </div>
+
+    <!-- Reset Button Section -->
+    <form action="" method="GET">
+        <div class="reset-container" style="text-align:center; margin-top:20px;">
+            <button type="submit">Reset</button>
+        </div>
     </form>
+    
+
+
+    <!-- Link to external JavaScript file -->
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
 </body>
 </html>
