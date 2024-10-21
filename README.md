@@ -68,4 +68,3 @@ Contributions are welcome! Please feel free to submit a pull request or report a
 
 ## Acknowledgments 🙏
 - Special thanks to the contributors and resources that helped in the development of this project.
-```
