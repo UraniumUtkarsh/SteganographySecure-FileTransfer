@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ url_for('static', filename='images/favicon.png') }}" type="image/x-icon">
     <title>Steganography Secure File Transfer</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
@@ -69,7 +70,11 @@
             </form>
 
             <!-- Section to display decoded message -->
-            <div id="decodedMessage">Decoded Message: <span id="decodedText"></span></div>
+            <div id="decodedMessage"><!-- Add this spinner inside the div with id="decodedMessage" -->
+                <div id="loadingSpinner" style="display:none;">
+                    <img src="{{ url_for('static', filename='images/spinner.gif') }}" alt="Loading..." style="width: 50px;">
+                </div>
+                Decoded Message: <span id="decodedText"></span></div>
         </div>
     </div>
 

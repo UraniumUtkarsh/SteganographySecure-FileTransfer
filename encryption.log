@@ -1,0 +1,202 @@
+2024-10-20 15:18:24,869 INFO: Secret key loaded successfully
+2024-10-20 15:18:46,666 INFO: Secret key loaded successfully
+2024-10-20 15:18:47,162 INFO: Starting Flask application
+2024-10-20 15:18:47,235 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-20 15:18:47,235 INFO: [33mPress CTRL+C to quit[0m
+2024-10-20 15:18:47,235 INFO:  * Restarting with stat
+2024-10-20 15:18:47,769 INFO: Secret key loaded successfully
+2024-10-20 15:18:47,946 INFO: Starting Flask application
+2024-10-20 15:18:47,962 WARNING:  * Debugger is active!
+2024-10-20 15:18:47,962 INFO:  * Debugger PIN: 104-018-685
+2024-10-20 15:18:58,385 INFO: Secret key loaded successfully
+2024-10-20 15:18:58,571 INFO: Starting Flask application
+2024-10-20 15:18:58,604 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-20 15:18:58,604 INFO: [33mPress CTRL+C to quit[0m
+2024-10-20 15:18:58,604 INFO:  * Restarting with stat
+2024-10-20 15:18:59,103 INFO: Secret key loaded successfully
+2024-10-20 15:18:59,307 INFO: Starting Flask application
+2024-10-20 15:18:59,324 WARNING:  * Debugger is active!
+2024-10-20 15:18:59,332 INFO:  * Debugger PIN: 104-018-685
+2024-10-20 15:19:02,300 INFO: Home page accessed
+2024-10-20 15:19:02,349 INFO: 127.0.0.1 - - [20/Oct/2024 15:19:02] "GET / HTTP/1.1" 200 -
+2024-10-20 15:19:02,518 INFO: 127.0.0.1 - - [20/Oct/2024 15:19:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-20 15:19:02,526 INFO: 127.0.0.1 - - [20/Oct/2024 15:19:02] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-10-20 15:19:02,534 INFO: 127.0.0.1 - - [20/Oct/2024 15:19:02] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-20 15:19:02,542 INFO: 127.0.0.1 - - [20/Oct/2024 15:19:02] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-10-20 15:19:02,558 INFO: 127.0.0.1 - - [20/Oct/2024 15:19:02] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-20 15:19:02,574 INFO: 127.0.0.1 - - [20/Oct/2024 15:19:02] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-20 15:19:02,600 INFO: 127.0.0.1 - - [20/Oct/2024 15:19:02] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-20 15:19:26,411 INFO: Image 'uploads\encoded_Screenshot_2024-10-16_112859.png' opened for decoding.
+2024-10-20 15:19:26,708 INFO: Secret data successfully decoded from 'uploads\encoded_Screenshot_2024-10-16_112859.png'.
+2024-10-20 15:19:26,708 INFO: Message decoded from image encoded_Screenshot_2024-10-16_112859.png
+2024-10-20 15:19:26,996 INFO: Message decrypted successfully
+2024-10-20 15:19:26,996 INFO: Message decrypted from image encoded_Screenshot_2024-10-16_112859.png
+2024-10-20 15:19:26,996 INFO: 127.0.0.1 - - [20/Oct/2024 15:19:26] "POST /decode HTTP/1.1" 200 -
+2024-10-20 15:19:41,978 INFO: Image 'uploads\encoded_Screenshot_2024-01-12_201410.png' opened for decoding.
+2024-10-20 15:19:50,403 INFO: Secret data successfully decoded from 'uploads\encoded_Screenshot_2024-01-12_201410.png'.
+2024-10-20 15:19:50,658 INFO: Message decoded from image encoded_Screenshot_2024-01-12_201410.png
+2024-10-20 15:19:50,667 INFO: Message decrypted successfully
+2024-10-20 15:19:50,667 INFO: Message decrypted from image encoded_Screenshot_2024-01-12_201410.png
+2024-10-20 15:19:50,667 INFO: 127.0.0.1 - - [20/Oct/2024 15:19:50] "POST /decode HTTP/1.1" 200 -
+2024-10-20 15:20:38,963 INFO:  * Detected change in 'C:\\Users\\300058\\Desktop\\Steganography-File-Transfer\\steganography.py', reloading
+2024-10-20 15:20:39,109 INFO:  * Restarting with stat
+2024-10-20 15:20:39,833 INFO: Secret key loaded successfully
+2024-10-20 15:20:40,099 INFO: Starting Flask application
+2024-10-20 15:20:40,115 WARNING:  * Debugger is active!
+2024-10-20 15:20:40,123 INFO:  * Debugger PIN: 104-018-685
+2024-10-20 15:20:45,197 INFO:  * Detected change in 'C:\\Users\\300058\\Desktop\\Steganography-File-Transfer\\steganography.py', reloading
+2024-10-20 15:20:45,302 INFO:  * Restarting with stat
+2024-10-20 15:20:46,045 INFO: Secret key loaded successfully
+2024-10-20 15:20:46,325 INFO: Starting Flask application
+2024-10-20 15:20:46,341 WARNING:  * Debugger is active!
+2024-10-20 15:20:46,349 INFO:  * Debugger PIN: 104-018-685
+2024-10-20 15:20:59,538 INFO:  * Detected change in 'C:\\Users\\300058\\Desktop\\Steganography-File-Transfer\\steganography.py', reloading
+2024-10-20 15:20:59,680 INFO:  * Restarting with stat
+2024-10-20 15:21:00,266 INFO: Secret key loaded successfully
+2024-10-20 15:21:00,553 INFO: Starting Flask application
+2024-10-20 15:21:00,569 WARNING:  * Debugger is active!
+2024-10-20 15:21:00,569 INFO:  * Debugger PIN: 104-018-685
+2024-10-20 15:21:07,679 INFO:  * Detected change in 'C:\\Users\\300058\\Desktop\\Steganography-File-Transfer\\generate_key.py', reloading
+2024-10-20 15:21:07,769 INFO:  * Restarting with stat
+2024-10-20 15:21:08,311 INFO: Secret key loaded successfully
+2024-10-20 15:21:08,527 INFO: Starting Flask application
+2024-10-20 15:21:08,535 WARNING:  * Debugger is active!
+2024-10-20 15:21:08,543 INFO:  * Debugger PIN: 104-018-685
+2024-10-20 15:21:12,621 INFO:  * Detected change in 'C:\\Users\\300058\\Desktop\\Steganography-File-Transfer\\generate_key.py', reloading
+2024-10-20 15:21:12,736 INFO:  * Restarting with stat
+2024-10-20 15:21:13,664 INFO: Secret key loaded successfully
+2024-10-20 15:21:13,861 INFO: Starting Flask application
+2024-10-20 15:21:13,869 WARNING:  * Debugger is active!
+2024-10-20 15:21:13,877 INFO:  * Debugger PIN: 104-018-685
+2024-10-20 15:22:09,560 INFO:  * Detected change in 'C:\\Users\\300058\\Desktop\\Steganography-File-Transfer\\Image_Encoder.py', reloading
+2024-10-20 15:22:09,666 INFO:  * Restarting with stat
+2024-10-20 15:22:10,449 INFO: Secret key loaded successfully
+2024-10-20 15:22:10,664 INFO: Starting Flask application
+2024-10-20 15:22:10,670 WARNING:  * Debugger is active!
+2024-10-20 15:22:10,680 INFO:  * Debugger PIN: 104-018-685
+2024-10-20 15:22:21,136 INFO: Image 'uploads\lai.jpg' opened for decoding.
+2024-10-20 15:23:23,351 INFO: Home page accessed
+2024-10-20 15:23:23,395 INFO: 127.0.0.1 - - [20/Oct/2024 15:23:23] "GET / HTTP/1.1" 200 -
+2024-10-20 15:23:24,159 INFO: 127.0.0.1 - - [20/Oct/2024 15:23:24] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-20 15:23:24,176 INFO: 127.0.0.1 - - [20/Oct/2024 15:23:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-20 15:23:24,250 INFO: 127.0.0.1 - - [20/Oct/2024 15:23:24] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-10-20 15:23:24,356 INFO: 127.0.0.1 - - [20/Oct/2024 15:23:24] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-10-20 15:23:24,446 INFO: 127.0.0.1 - - [20/Oct/2024 15:23:24] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-20 15:23:24,471 INFO: 127.0.0.1 - - [20/Oct/2024 15:23:24] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-20 15:23:24,619 INFO: 127.0.0.1 - - [20/Oct/2024 15:23:24] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-20 15:24:23,038 INFO: Message encrypted successfully
+2024-10-20 15:24:23,070 INFO: File Screenshot_110.png uploaded and message encrypted
+2024-10-20 15:24:24,560 INFO: Image 'uploads\Screenshot_110.png' opened for encoding.
+2024-10-20 15:24:25,518 INFO: Secret data successfully encoded into 'uploads\encoded_Screenshot_110.png'.
+2024-10-20 15:24:25,534 INFO: Image Screenshot_110.png encoded successfully
+2024-10-20 15:24:25,659 INFO: 127.0.0.1 - - [20/Oct/2024 15:24:25] "POST /encode HTTP/1.1" 200 -
+2024-10-20 15:24:47,819 INFO: Message encrypted successfully
+2024-10-20 15:24:47,835 INFO: File Screenshot_110.png uploaded and message encrypted
+2024-10-20 15:24:48,305 INFO: Image 'uploads\Screenshot_110.png' opened for encoding.
+2024-10-20 15:24:49,341 INFO: Secret data successfully encoded into 'uploads\encoded_Screenshot_110.png'.
+2024-10-20 15:24:49,357 INFO: Image Screenshot_110.png encoded successfully
+2024-10-20 15:24:49,435 INFO: 127.0.0.1 - - [20/Oct/2024 15:24:49] "POST /encode HTTP/1.1" 200 -
+2024-10-20 15:25:03,353 INFO: Secret data successfully decoded from 'uploads\lai.jpg'.
+2024-10-20 15:25:04,515 INFO: Message decoded from image lai.jpg
+2024-10-20 15:25:04,562 ERROR: Error decrypting message: 
+2024-10-20 15:25:04,562 ERROR: Error decoding image lai.jpg: 
+2024-10-20 15:25:04,578 INFO: 127.0.0.1 - - [20/Oct/2024 15:25:04] "[35m[1mPOST /decode HTTP/1.1[0m" 500 -
+2024-10-20 15:25:42,467 INFO: Secret key loaded successfully
+2024-10-20 15:25:42,762 INFO: Starting Flask application
+2024-10-20 15:25:42,803 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-20 15:25:42,803 INFO: [33mPress CTRL+C to quit[0m
+2024-10-20 15:25:42,811 INFO:  * Restarting with stat
+2024-10-20 15:25:43,285 INFO: Secret key loaded successfully
+2024-10-20 15:25:43,457 INFO: Starting Flask application
+2024-10-20 15:25:43,465 WARNING:  * Debugger is active!
+2024-10-20 15:25:43,473 INFO:  * Debugger PIN: 104-018-685
+2024-10-20 15:45:02,620 INFO: Secret key loaded successfully
+2024-10-20 15:45:02,808 INFO: Starting Flask application
+2024-10-20 15:45:02,855 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-20 15:45:02,855 INFO: [33mPress CTRL+C to quit[0m
+2024-10-20 15:45:02,870 INFO:  * Restarting with stat
+2024-10-20 15:45:03,339 INFO: Secret key loaded successfully
+2024-10-20 15:45:03,527 INFO: Starting Flask application
+2024-10-20 15:45:03,527 WARNING:  * Debugger is active!
+2024-10-20 15:45:03,542 INFO:  * Debugger PIN: 104-018-685
+2024-10-20 15:45:17,143 INFO: Home page accessed
+2024-10-20 15:45:17,146 INFO: 127.0.0.1 - - [20/Oct/2024 15:45:17] "GET / HTTP/1.1" 200 -
+2024-10-20 15:45:17,501 INFO: 127.0.0.1 - - [20/Oct/2024 15:45:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-20 15:45:27,505 INFO: Image 'uploads\lai.jpg' opened for decoding.
+2024-10-20 15:47:54,045 INFO: Secret data successfully decoded from 'uploads\lai.jpg'.
+2024-10-20 15:47:54,932 INFO: Message decoded from image lai.jpg
+2024-10-20 15:47:54,989 ERROR: Error decrypting message: 
+2024-10-20 15:47:54,989 ERROR: Error decoding image lai.jpg: 
+2024-10-20 15:47:54,996 INFO: 127.0.0.1 - - [20/Oct/2024 15:47:54] "[35m[1mPOST /decode HTTP/1.1[0m" 500 -
+2024-10-20 15:49:39,338 INFO: Home page accessed
+2024-10-20 15:49:39,363 INFO: 127.0.0.1 - - [20/Oct/2024 15:49:39] "GET / HTTP/1.1" 200 -
+2024-10-20 15:49:39,476 INFO: 127.0.0.1 - - [20/Oct/2024 15:49:39] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-10-20 15:49:39,715 INFO: 127.0.0.1 - - [20/Oct/2024 15:49:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-20 15:49:39,715 INFO: 127.0.0.1 - - [20/Oct/2024 15:49:39] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-10-20 15:49:39,754 INFO: 127.0.0.1 - - [20/Oct/2024 15:49:39] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-20 15:49:39,754 INFO: 127.0.0.1 - - [20/Oct/2024 15:49:39] "GET /static/scripts.js HTTP/1.1" 200 -
+2024-10-20 15:49:39,754 INFO: 127.0.0.1 - - [20/Oct/2024 15:49:39] "GET /static/images/spinner.gif HTTP/1.1" 200 -
+2024-10-20 15:49:40,030 INFO: 127.0.0.1 - - [20/Oct/2024 15:49:40] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-20 15:49:40,349 INFO: 127.0.0.1 - - [20/Oct/2024 15:49:40] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-10-20 15:55:33,219 INFO: Home page accessed
+2024-10-20 15:55:33,235 INFO: 127.0.0.1 - - [20/Oct/2024 15:55:33] "GET / HTTP/1.1" 200 -
+2024-10-20 15:55:33,280 INFO: 127.0.0.1 - - [20/Oct/2024 15:55:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-20 15:55:33,478 INFO: 127.0.0.1 - - [20/Oct/2024 15:55:33] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-20 15:55:33,599 INFO: 127.0.0.1 - - [20/Oct/2024 15:55:33] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-10-20 15:55:33,630 INFO: 127.0.0.1 - - [20/Oct/2024 15:55:33] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-10-20 15:55:33,630 INFO: 127.0.0.1 - - [20/Oct/2024 15:55:33] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-20 15:55:33,630 INFO: 127.0.0.1 - - [20/Oct/2024 15:55:33] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-20 15:55:33,639 INFO: 127.0.0.1 - - [20/Oct/2024 15:55:33] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-20 15:55:33,984 INFO: 127.0.0.1 - - [20/Oct/2024 15:55:33] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2024-10-20 15:55:40,149 INFO: Image 'uploads\lai.jpg' opened for decoding.
+2024-10-20 15:56:04,735 INFO: Home page accessed
+2024-10-20 15:56:04,767 INFO: 127.0.0.1 - - [20/Oct/2024 15:56:04] "GET / HTTP/1.1" 200 -
+2024-10-20 15:56:05,300 INFO: 127.0.0.1 - - [20/Oct/2024 15:56:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-20 15:56:05,318 INFO: 127.0.0.1 - - [20/Oct/2024 15:56:05] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-10-20 15:56:05,397 INFO: 127.0.0.1 - - [20/Oct/2024 15:56:05] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-10-20 15:56:05,477 INFO: 127.0.0.1 - - [20/Oct/2024 15:56:05] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-20 15:56:05,541 INFO: 127.0.0.1 - - [20/Oct/2024 15:56:05] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-20 15:56:05,621 INFO: 127.0.0.1 - - [20/Oct/2024 15:56:05] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-20 15:56:05,797 INFO: 127.0.0.1 - - [20/Oct/2024 15:56:05] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-20 15:56:38,811 INFO: Message encrypted successfully
+2024-10-20 15:56:38,826 INFO: File Screenshot_103.png uploaded and message encrypted
+2024-10-20 15:56:39,385 INFO: Image 'uploads\Screenshot_103.png' opened for encoding.
+2024-10-20 15:56:40,502 INFO: Secret data successfully encoded into 'uploads\encoded_Screenshot_103.png'.
+2024-10-20 15:56:40,519 INFO: Image Screenshot_103.png encoded successfully
+2024-10-20 15:56:40,607 INFO: 127.0.0.1 - - [20/Oct/2024 15:56:40] "POST /encode HTTP/1.1" 200 -
+2024-10-20 15:56:58,876 INFO: Image 'uploads\encoded_Screenshot_103.png' opened for decoding.
+2024-10-20 15:57:08,726 INFO: 127.0.0.1 - - [20/Oct/2024 15:57:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-20 15:57:22,687 INFO: Secret data successfully decoded from 'uploads\encoded_Screenshot_103.png'.
+2024-10-20 15:57:22,784 INFO: Message decoded from image encoded_Screenshot_103.png
+2024-10-20 15:57:22,857 INFO: Message decrypted successfully
+2024-10-20 15:57:22,865 INFO: Message decrypted from image encoded_Screenshot_103.png
+2024-10-20 15:57:22,897 INFO: 127.0.0.1 - - [20/Oct/2024 15:57:22] "POST /decode HTTP/1.1" 200 -
+2024-10-20 19:00:17,927 INFO: Secret key loaded successfully
+2024-10-20 19:00:18,768 INFO: Starting Flask application
+2024-10-20 19:00:18,856 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-20 19:00:18,856 INFO: [33mPress CTRL+C to quit[0m
+2024-10-20 19:00:18,856 INFO:  * Restarting with stat
+2024-10-20 19:00:19,393 INFO: Secret key loaded successfully
+2024-10-20 19:00:19,609 INFO: Starting Flask application
+2024-10-20 19:00:19,617 WARNING:  * Debugger is active!
+2024-10-20 19:00:19,625 INFO:  * Debugger PIN: 104-018-685
+2024-10-20 19:01:18,421 INFO: Home page accessed
+2024-10-20 19:01:18,516 INFO: 127.0.0.1 - - [20/Oct/2024 19:01:18] "GET / HTTP/1.1" 200 -
+2024-10-20 19:01:18,745 INFO: 127.0.0.1 - - [20/Oct/2024 19:01:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-20 19:01:18,813 INFO: 127.0.0.1 - - [20/Oct/2024 19:01:18] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-10-20 19:01:18,929 INFO: 127.0.0.1 - - [20/Oct/2024 19:01:18] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-10-20 19:01:19,055 INFO: 127.0.0.1 - - [20/Oct/2024 19:01:19] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-20 19:01:19,070 INFO: 127.0.0.1 - - [20/Oct/2024 19:01:19] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-20 19:01:19,098 INFO: 127.0.0.1 - - [20/Oct/2024 19:01:19] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-20 19:01:19,127 INFO: 127.0.0.1 - - [20/Oct/2024 19:01:19] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-20 19:07:23,964 INFO: Image 'uploads\lai.jpg' opened for decoding.
+2024-10-20 19:10:07,168 INFO: Secret data successfully decoded from 'uploads\lai.jpg'.
+2024-10-20 19:10:07,840 INFO: Message decoded from image lai.jpg
+2024-10-20 19:10:07,875 ERROR: Error decrypting message: 
+2024-10-20 19:10:07,875 ERROR: Error decoding image lai.jpg: 
+2024-10-20 19:10:07,883 INFO: 127.0.0.1 - - [20/Oct/2024 19:10:07] "[35m[1mPOST /decode HTTP/1.1[0m" 500 -

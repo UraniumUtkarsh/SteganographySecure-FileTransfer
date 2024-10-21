@@ -1,11 +1,3 @@
-function clearDecodedMessage() {
-    document.getElementById('decoded-message').innerHTML = "";
-}
-
-document.getElementById('decode-file-input').addEventListener('change', function() {
-    clearDecodedMessage();
-});
-
 function displayFilename(inputId, filenameId) {
     var input = document.getElementById(inputId);
     var filename = input.files[0]?.name;
@@ -15,18 +7,27 @@ function displayFilename(inputId, filenameId) {
 function submitDecodeForm() {
     var formData = new FormData(document.getElementById('decodeForm'));
 
+    // Display loading message and spinner
+    document.getElementById('decodedText').textContent = "Decoding... please wait.";
+    document.getElementById('loadingSpinner').style.display = 'block';  // Show spinner
+    document.getElementById('decodedMessage').style.display = 'block';
+
     fetch('/decode', {
         method: 'POST',
         body: formData
     })
     .then(response => response.json())
     .then(data => {
+        document.getElementById('loadingSpinner').style.display = 'none';  // Hide spinner
         if (data.success) {
             document.getElementById('decodedText').textContent = data.message;
-            document.getElementById('decodedMessage').style.display = 'block';
         } else {
-            alert('Failed to decode message.');
+            document.getElementById('decodedText').textContent = "Failed to decode message.";
         }
     })
-    .catch(error => console.error('Error:', error));
+    .catch(error => {
+        document.getElementById('loadingSpinner').style.display = 'none';  // Hide spinner
+        console.error('Error:', error);
+        document.getElementById('decodedText').textContent = "An error occurred during decoding.";
+    });
 }
