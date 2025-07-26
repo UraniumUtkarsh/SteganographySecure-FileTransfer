@@ -138,3 +138,76 @@ button:hover {
 .reset-container button:hover {
     background-color: #FF4500;
 }
+
+/* Dropdown menu styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.developer-details {
+    float: right;
+    margin-top: 10px;
+}
+
+.taskbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.links {
+    margin-left: 20px;
+}
+
+.links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.project-description {
+    background-color: rgba(255, 255, 255, 0.5); /* Translucent white */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Maximum width */
+    color: black; /* Black text */
+    font-family: Arial, sans-serif; /* Change font */
+    text-align: left;
+}
+
+h2, h3 {
+    color: black; /* Set header colors */
+}

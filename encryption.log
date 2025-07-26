@@ -200,3 +200,480 @@
 2024-10-20 19:10:07,875 ERROR: Error decrypting message: 
 2024-10-20 19:10:07,875 ERROR: Error decoding image lai.jpg: 
 2024-10-20 19:10:07,883 INFO: 127.0.0.1 - - [20/Oct/2024 19:10:07] "[35m[1mPOST /decode HTTP/1.1[0m" 500 -
+2024-10-21 11:48:53,996 INFO: Secret key loaded successfully
+2024-10-21 11:48:54,778 INFO: Starting Flask application
+2024-10-21 11:48:54,840 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-21 11:48:54,840 INFO: [33mPress CTRL+C to quit[0m
+2024-10-21 11:48:54,840 INFO:  * Restarting with stat
+2024-10-21 11:48:55,309 INFO: Secret key loaded successfully
+2024-10-21 11:48:55,481 INFO: Starting Flask application
+2024-10-21 11:48:55,481 WARNING:  * Debugger is active!
+2024-10-21 11:48:55,496 INFO:  * Debugger PIN: 104-018-685
+2024-10-21 11:48:59,458 INFO: Home page accessed
+2024-10-21 11:48:59,536 INFO: 127.0.0.1 - - [21/Oct/2024 11:48:59] "GET / HTTP/1.1" 200 -
+2024-10-21 11:48:59,653 INFO: 127.0.0.1 - - [21/Oct/2024 11:48:59] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-10-21 11:48:59,731 INFO: 127.0.0.1 - - [21/Oct/2024 11:48:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 11:48:59,883 INFO: 127.0.0.1 - - [21/Oct/2024 11:48:59] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 11:48:59,981 INFO: 127.0.0.1 - - [21/Oct/2024 11:48:59] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 11:48:59,997 INFO: 127.0.0.1 - - [21/Oct/2024 11:48:59] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 11:49:00,023 INFO: 127.0.0.1 - - [21/Oct/2024 11:49:00] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 11:49:00,062 INFO: 127.0.0.1 - - [21/Oct/2024 11:49:00] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-21 11:49:27,251 INFO: Image 'uploads\encoded_Screenshot_2024-01-12_201410.png' opened for decoding.
+2024-10-21 11:49:35,705 INFO: Secret data successfully decoded from 'uploads\encoded_Screenshot_2024-01-12_201410.png'.
+2024-10-21 11:49:35,754 INFO: Message decoded from image encoded_Screenshot_2024-01-12_201410.png
+2024-10-21 11:49:35,887 INFO: Message decrypted successfully
+2024-10-21 11:49:35,888 INFO: Message decrypted from image encoded_Screenshot_2024-01-12_201410.png
+2024-10-21 11:49:35,889 INFO: 127.0.0.1 - - [21/Oct/2024 11:49:35] "POST /decode HTTP/1.1" 200 -
+2024-10-21 11:49:50,887 INFO: Home page accessed
+2024-10-21 11:49:50,888 INFO: 127.0.0.1 - - [21/Oct/2024 11:49:50] "GET / HTTP/1.1" 200 -
+2024-10-21 11:49:50,911 INFO: 127.0.0.1 - - [21/Oct/2024 11:49:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 11:49:51,140 INFO: 127.0.0.1 - - [21/Oct/2024 11:49:51] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-21 11:49:51,233 INFO: 127.0.0.1 - - [21/Oct/2024 11:49:51] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-10-21 11:49:51,251 INFO: 127.0.0.1 - - [21/Oct/2024 11:49:51] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 11:49:51,251 INFO: 127.0.0.1 - - [21/Oct/2024 11:49:51] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 11:49:51,255 INFO: 127.0.0.1 - - [21/Oct/2024 11:49:51] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 11:49:51,256 INFO: 127.0.0.1 - - [21/Oct/2024 11:49:51] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 12:11:58,333 INFO: Secret key loaded successfully
+2024-10-21 12:11:58,540 INFO: Starting Flask application
+2024-10-21 12:11:58,572 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-21 12:11:58,572 INFO: [33mPress CTRL+C to quit[0m
+2024-10-21 12:11:58,574 INFO:  * Restarting with stat
+2024-10-21 12:11:59,137 INFO: Secret key loaded successfully
+2024-10-21 12:11:59,444 INFO: Starting Flask application
+2024-10-21 12:11:59,462 WARNING:  * Debugger is active!
+2024-10-21 12:11:59,468 INFO:  * Debugger PIN: 104-018-685
+2024-10-21 12:12:02,157 INFO: Home page accessed
+2024-10-21 12:12:02,180 INFO: 127.0.0.1 - - [21/Oct/2024 12:12:02] "GET / HTTP/1.1" 200 -
+2024-10-21 12:12:02,621 INFO: 127.0.0.1 - - [21/Oct/2024 12:12:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 12:12:02,758 INFO: 127.0.0.1 - - [21/Oct/2024 12:12:02] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 12:12:02,770 INFO: 127.0.0.1 - - [21/Oct/2024 12:12:02] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-10-21 12:12:02,776 INFO: 127.0.0.1 - - [21/Oct/2024 12:12:02] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 12:12:02,819 INFO: 127.0.0.1 - - [21/Oct/2024 12:12:02] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 12:12:02,823 INFO: 127.0.0.1 - - [21/Oct/2024 12:12:02] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 12:12:02,977 INFO: 127.0.0.1 - - [21/Oct/2024 12:12:02] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-21 12:12:03,305 INFO: 127.0.0.1 - - [21/Oct/2024 12:12:03] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2024-10-21 12:36:17,833 INFO: Secret key loaded successfully
+2024-10-21 12:36:18,021 INFO: Starting Flask application
+2024-10-21 12:36:18,068 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-21 12:36:18,068 INFO: [33mPress CTRL+C to quit[0m
+2024-10-21 12:36:18,068 INFO:  * Restarting with stat
+2024-10-21 12:36:18,552 INFO: Secret key loaded successfully
+2024-10-21 12:36:18,740 INFO: Starting Flask application
+2024-10-21 12:36:18,740 WARNING:  * Debugger is active!
+2024-10-21 12:36:18,757 INFO:  * Debugger PIN: 104-018-685
+2024-10-21 12:36:25,008 INFO: Home page accessed
+2024-10-21 12:36:25,028 INFO: 127.0.0.1 - - [21/Oct/2024 12:36:25] "GET / HTTP/1.1" 200 -
+2024-10-21 12:36:25,213 INFO: 127.0.0.1 - - [21/Oct/2024 12:36:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 12:36:25,259 INFO: 127.0.0.1 - - [21/Oct/2024 12:36:25] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-21 12:36:25,427 INFO: 127.0.0.1 - - [21/Oct/2024 12:36:25] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-10-21 12:36:25,541 INFO: 127.0.0.1 - - [21/Oct/2024 12:36:25] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 12:36:25,545 INFO: 127.0.0.1 - - [21/Oct/2024 12:36:25] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 12:36:25,545 INFO: 127.0.0.1 - - [21/Oct/2024 12:36:25] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 12:36:25,553 INFO: 127.0.0.1 - - [21/Oct/2024 12:36:25] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 14:40:00,211 INFO: Home page accessed
+2024-10-21 14:40:00,211 INFO: 127.0.0.1 - - [21/Oct/2024 14:40:00] "GET / HTTP/1.1" 200 -
+2024-10-21 14:40:00,461 INFO: 127.0.0.1 - - [21/Oct/2024 14:40:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 14:40:00,557 INFO: 127.0.0.1 - - [21/Oct/2024 14:40:00] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 14:40:00,565 INFO: 127.0.0.1 - - [21/Oct/2024 14:40:00] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-10-21 14:40:00,565 INFO: 127.0.0.1 - - [21/Oct/2024 14:40:00] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 14:40:00,770 INFO: 127.0.0.1 - - [21/Oct/2024 14:40:00] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 14:40:00,818 INFO: 127.0.0.1 - - [21/Oct/2024 14:40:00] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 14:40:00,826 INFO: 127.0.0.1 - - [21/Oct/2024 14:40:00] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-21 14:43:07,123 INFO: Home page accessed
+2024-10-21 14:43:07,123 INFO: 127.0.0.1 - - [21/Oct/2024 14:43:07] "GET / HTTP/1.1" 200 -
+2024-10-21 14:43:07,360 INFO: 127.0.0.1 - - [21/Oct/2024 14:43:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 14:43:07,446 INFO: 127.0.0.1 - - [21/Oct/2024 14:43:07] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-10-21 14:43:07,457 INFO: 127.0.0.1 - - [21/Oct/2024 14:43:07] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 14:43:07,457 INFO: 127.0.0.1 - - [21/Oct/2024 14:43:07] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 14:43:07,715 INFO: 127.0.0.1 - - [21/Oct/2024 14:43:07] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 14:43:07,741 INFO: 127.0.0.1 - - [21/Oct/2024 14:43:07] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 14:43:07,749 INFO: 127.0.0.1 - - [21/Oct/2024 14:43:07] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-21 14:44:36,576 INFO: Home page accessed
+2024-10-21 14:44:36,576 INFO: 127.0.0.1 - - [21/Oct/2024 14:44:36] "GET / HTTP/1.1" 200 -
+2024-10-21 14:44:36,608 INFO: 127.0.0.1 - - [21/Oct/2024 14:44:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 14:44:36,845 INFO: 127.0.0.1 - - [21/Oct/2024 14:44:36] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-21 14:44:36,924 INFO: 127.0.0.1 - - [21/Oct/2024 14:44:36] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-10-21 14:44:37,013 INFO: 127.0.0.1 - - [21/Oct/2024 14:44:37] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 14:44:37,021 INFO: 127.0.0.1 - - [21/Oct/2024 14:44:37] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 14:44:37,021 INFO: 127.0.0.1 - - [21/Oct/2024 14:44:37] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 14:44:37,021 INFO: 127.0.0.1 - - [21/Oct/2024 14:44:37] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 14:45:16,916 INFO: Home page accessed
+2024-10-21 14:45:16,916 INFO: 127.0.0.1 - - [21/Oct/2024 14:45:16] "GET / HTTP/1.1" 200 -
+2024-10-21 14:45:16,979 INFO: 127.0.0.1 - - [21/Oct/2024 14:45:16] "GET /static/images/github-icon.jpeg HTTP/1.1" 200 -
+2024-10-21 14:45:16,994 INFO: 127.0.0.1 - - [21/Oct/2024 14:45:16] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-10-21 14:45:17,026 INFO: 127.0.0.1 - - [21/Oct/2024 14:45:17] "GET /static/images/linkedin-icon.png HTTP/1.1" 200 -
+2024-10-21 14:45:17,135 INFO: 127.0.0.1 - - [21/Oct/2024 14:45:17] "GET /static/images/upload-icon.png HTTP/1.1" 200 -
+2024-10-21 14:45:17,135 INFO: 127.0.0.1 - - [21/Oct/2024 14:45:17] "GET /static/scripts.js HTTP/1.1" 200 -
+2024-10-21 14:45:17,135 INFO: 127.0.0.1 - - [21/Oct/2024 14:45:17] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 14:45:17,151 INFO: 127.0.0.1 - - [21/Oct/2024 14:45:17] "GET /static/images/aibg.webp HTTP/1.1" 200 -
+2024-10-21 14:45:17,417 INFO: 127.0.0.1 - - [21/Oct/2024 14:45:17] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-10-21 14:57:55,069 INFO: Home page accessed
+2024-10-21 14:57:55,069 INFO: 127.0.0.1 - - [21/Oct/2024 14:57:55] "GET / HTTP/1.1" 200 -
+2024-10-21 14:57:55,896 INFO: 127.0.0.1 - - [21/Oct/2024 14:57:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 14:57:56,287 INFO: 127.0.0.1 - - [21/Oct/2024 14:57:56] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-21 14:57:56,334 INFO: 127.0.0.1 - - [21/Oct/2024 14:57:56] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-10-21 14:57:56,365 INFO: 127.0.0.1 - - [21/Oct/2024 14:57:56] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 14:57:56,430 INFO: 127.0.0.1 - - [21/Oct/2024 14:57:56] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 14:57:56,552 INFO: 127.0.0.1 - - [21/Oct/2024 14:57:56] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 14:57:56,574 INFO: 127.0.0.1 - - [21/Oct/2024 14:57:56] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 15:00:28,240 INFO: Message encrypted successfully
+2024-10-21 15:00:28,240 INFO: File Steg_UnEXposed_Image1.png uploaded and message encrypted
+2024-10-21 15:00:28,321 INFO: Image 'uploads\Steg_UnEXposed_Image1.png' opened for encoding.
+2024-10-21 15:00:28,632 INFO: Secret data successfully encoded into 'uploads\encoded_Steg_UnEXposed_Image1.png'.
+2024-10-21 15:00:28,632 INFO: Image Steg_UnEXposed_Image1.png encoded successfully
+2024-10-21 15:00:28,649 INFO: 127.0.0.1 - - [21/Oct/2024 15:00:28] "POST /encode HTTP/1.1" 200 -
+2024-10-21 15:01:15,360 INFO: Image 'uploads\encoded_Screenshot_2024-01-12_201410.png' opened for decoding.
+2024-10-21 15:01:23,912 INFO: Secret data successfully decoded from 'uploads\encoded_Screenshot_2024-01-12_201410.png'.
+2024-10-21 15:01:23,960 INFO: Message decoded from image encoded_Screenshot_2024-01-12_201410.png
+2024-10-21 15:01:23,960 INFO: Message decrypted successfully
+2024-10-21 15:01:23,960 INFO: Message decrypted from image encoded_Screenshot_2024-01-12_201410.png
+2024-10-21 15:01:23,968 INFO: 127.0.0.1 - - [21/Oct/2024 15:01:23] "POST /decode HTTP/1.1" 200 -
+2024-10-21 15:01:36,535 INFO: Home page accessed
+2024-10-21 15:01:36,535 INFO: 127.0.0.1 - - [21/Oct/2024 15:01:36] "GET / HTTP/1.1" 200 -
+2024-10-21 15:01:36,567 INFO: 127.0.0.1 - - [21/Oct/2024 15:01:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 15:01:36,797 INFO: 127.0.0.1 - - [21/Oct/2024 15:01:36] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-21 15:01:36,893 INFO: 127.0.0.1 - - [21/Oct/2024 15:01:36] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-10-21 15:01:36,925 INFO: 127.0.0.1 - - [21/Oct/2024 15:01:36] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 15:01:36,925 INFO: 127.0.0.1 - - [21/Oct/2024 15:01:36] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 15:01:36,925 INFO: 127.0.0.1 - - [21/Oct/2024 15:01:36] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 15:01:36,925 INFO: 127.0.0.1 - - [21/Oct/2024 15:01:36] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 15:01:47,674 INFO: Image 'uploads\encoded_Steg_UnEXposed_Image1.png' opened for decoding.
+2024-10-21 15:01:59,223 INFO: Secret data successfully decoded from 'uploads\encoded_Steg_UnEXposed_Image1.png'.
+2024-10-21 15:01:59,280 INFO: Message decoded from image encoded_Steg_UnEXposed_Image1.png
+2024-10-21 15:01:59,280 INFO: Message decrypted successfully
+2024-10-21 15:01:59,280 INFO: Message decrypted from image encoded_Steg_UnEXposed_Image1.png
+2024-10-21 15:01:59,280 INFO: 127.0.0.1 - - [21/Oct/2024 15:01:59] "POST /decode HTTP/1.1" 200 -
+2024-10-21 21:30:59,771 INFO: Secret key loaded successfully
+2024-10-21 21:31:00,646 INFO: Starting Flask application
+2024-10-21 21:31:00,709 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-21 21:31:00,709 INFO: [33mPress CTRL+C to quit[0m
+2024-10-21 21:31:00,709 INFO:  * Restarting with stat
+2024-10-21 21:31:01,256 INFO: Secret key loaded successfully
+2024-10-21 21:31:01,464 INFO: Starting Flask application
+2024-10-21 21:31:01,496 WARNING:  * Debugger is active!
+2024-10-21 21:31:01,511 INFO:  * Debugger PIN: 104-018-685
+2024-10-21 21:31:36,087 INFO: Home page accessed
+2024-10-21 21:31:36,105 INFO: 127.0.0.1 - - [21/Oct/2024 21:31:36] "GET / HTTP/1.1" 200 -
+2024-10-21 21:31:36,187 INFO: 127.0.0.1 - - [21/Oct/2024 21:31:36] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-10-21 21:31:36,365 INFO: 127.0.0.1 - - [21/Oct/2024 21:31:36] "GET /static/scripts.js HTTP/1.1" 200 -
+2024-10-21 21:31:36,433 INFO: 127.0.0.1 - - [21/Oct/2024 21:31:36] "GET /static/images/github-icon.jpeg HTTP/1.1" 200 -
+2024-10-21 21:31:36,456 INFO: 127.0.0.1 - - [21/Oct/2024 21:31:36] "GET /static/images/upload-icon.png HTTP/1.1" 200 -
+2024-10-21 21:31:36,468 INFO: 127.0.0.1 - - [21/Oct/2024 21:31:36] "GET /static/images/spinner.gif HTTP/1.1" 200 -
+2024-10-21 21:31:36,491 INFO: 127.0.0.1 - - [21/Oct/2024 21:31:36] "GET /static/images/linkedin-icon.png HTTP/1.1" 200 -
+2024-10-21 21:31:36,520 INFO: 127.0.0.1 - - [21/Oct/2024 21:31:36] "GET /static/images/aibg.webp HTTP/1.1" 200 -
+2024-10-21 21:31:36,835 INFO: 127.0.0.1 - - [21/Oct/2024 21:31:36] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-10-21 21:33:50,395 INFO: Home page accessed
+2024-10-21 21:33:50,412 INFO: 127.0.0.1 - - [21/Oct/2024 21:33:50] "GET / HTTP/1.1" 200 -
+2024-10-21 21:33:50,437 INFO: 127.0.0.1 - - [21/Oct/2024 21:33:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 21:33:50,646 INFO: 127.0.0.1 - - [21/Oct/2024 21:33:50] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 21:33:50,747 INFO: 127.0.0.1 - - [21/Oct/2024 21:33:50] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 21:33:50,747 INFO: 127.0.0.1 - - [21/Oct/2024 21:33:50] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:33:51,079 INFO: 127.0.0.1 - - [21/Oct/2024 21:33:51] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:35:25,377 INFO: Home page accessed
+2024-10-21 21:35:25,377 INFO: 127.0.0.1 - - [21/Oct/2024 21:35:25] "GET / HTTP/1.1" 200 -
+2024-10-21 21:35:25,392 INFO: 127.0.0.1 - - [21/Oct/2024 21:35:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 21:35:25,643 INFO: 127.0.0.1 - - [21/Oct/2024 21:35:25] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 21:35:25,705 INFO: 127.0.0.1 - - [21/Oct/2024 21:35:25] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-10-21 21:35:25,705 INFO: 127.0.0.1 - - [21/Oct/2024 21:35:25] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:35:25,705 INFO: 127.0.0.1 - - [21/Oct/2024 21:35:25] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:35:25,705 INFO: 127.0.0.1 - - [21/Oct/2024 21:35:25] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 21:35:26,049 INFO: 127.0.0.1 - - [21/Oct/2024 21:35:26] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:40:33,156 INFO: Home page accessed
+2024-10-21 21:40:33,187 INFO: 127.0.0.1 - - [21/Oct/2024 21:40:33] "GET / HTTP/1.1" 200 -
+2024-10-21 21:40:33,207 INFO: 127.0.0.1 - - [21/Oct/2024 21:40:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 21:40:33,406 INFO: 127.0.0.1 - - [21/Oct/2024 21:40:33] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 21:40:33,520 INFO: 127.0.0.1 - - [21/Oct/2024 21:40:33] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:40:33,524 INFO: 127.0.0.1 - - [21/Oct/2024 21:40:33] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 21:40:33,838 INFO: 127.0.0.1 - - [21/Oct/2024 21:40:33] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:41:40,637 INFO: Home page accessed
+2024-10-21 21:41:40,662 INFO: 127.0.0.1 - - [21/Oct/2024 21:41:40] "GET / HTTP/1.1" 200 -
+2024-10-21 21:41:40,672 INFO: 127.0.0.1 - - [21/Oct/2024 21:41:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 21:41:40,898 INFO: 127.0.0.1 - - [21/Oct/2024 21:41:40] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 21:41:40,989 INFO: 127.0.0.1 - - [21/Oct/2024 21:41:40] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:41:40,990 INFO: 127.0.0.1 - - [21/Oct/2024 21:41:40] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 21:41:41,309 INFO: 127.0.0.1 - - [21/Oct/2024 21:41:41] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:43:09,067 INFO: Home page accessed
+2024-10-21 21:43:09,068 INFO: 127.0.0.1 - - [21/Oct/2024 21:43:09] "GET / HTTP/1.1" 200 -
+2024-10-21 21:43:09,079 INFO: 127.0.0.1 - - [21/Oct/2024 21:43:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 21:43:09,334 INFO: 127.0.0.1 - - [21/Oct/2024 21:43:09] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 21:43:09,401 INFO: 127.0.0.1 - - [21/Oct/2024 21:43:09] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:43:09,402 INFO: 127.0.0.1 - - [21/Oct/2024 21:43:09] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 21:43:09,723 INFO: 127.0.0.1 - - [21/Oct/2024 21:43:09] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:44:31,724 INFO: Home page accessed
+2024-10-21 21:44:31,739 INFO: 127.0.0.1 - - [21/Oct/2024 21:44:31] "GET / HTTP/1.1" 200 -
+2024-10-21 21:44:31,765 INFO: 127.0.0.1 - - [21/Oct/2024 21:44:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 21:44:31,975 INFO: 127.0.0.1 - - [21/Oct/2024 21:44:31] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 21:44:32,073 INFO: 127.0.0.1 - - [21/Oct/2024 21:44:32] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:44:32,073 INFO: 127.0.0.1 - - [21/Oct/2024 21:44:32] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 21:44:32,388 INFO: 127.0.0.1 - - [21/Oct/2024 21:44:32] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:47:31,464 INFO: Home page accessed
+2024-10-21 21:47:31,464 INFO: 127.0.0.1 - - [21/Oct/2024 21:47:31] "GET / HTTP/1.1" 200 -
+2024-10-21 21:47:31,723 INFO: 127.0.0.1 - - [21/Oct/2024 21:47:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 21:47:31,791 INFO: 127.0.0.1 - - [21/Oct/2024 21:47:31] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:47:31,794 INFO: 127.0.0.1 - - [21/Oct/2024 21:47:31] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 21:47:31,799 INFO: 127.0.0.1 - - [21/Oct/2024 21:47:31] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 21:47:32,044 INFO: 127.0.0.1 - - [21/Oct/2024 21:47:32] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-21 21:48:11,148 INFO: Home page accessed
+2024-10-21 21:48:11,179 INFO: 127.0.0.1 - - [21/Oct/2024 21:48:11] "GET / HTTP/1.1" 200 -
+2024-10-21 21:48:11,460 INFO: 127.0.0.1 - - [21/Oct/2024 21:48:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 21:48:11,529 INFO: 127.0.0.1 - - [21/Oct/2024 21:48:11] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:48:11,530 INFO: 127.0.0.1 - - [21/Oct/2024 21:48:11] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 21:48:11,530 INFO: 127.0.0.1 - - [21/Oct/2024 21:48:11] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 21:48:11,779 INFO: 127.0.0.1 - - [21/Oct/2024 21:48:11] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-21 21:48:12,094 INFO: 127.0.0.1 - - [21/Oct/2024 21:48:12] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:48:30,179 INFO: Home page accessed
+2024-10-21 21:48:30,202 INFO: 127.0.0.1 - - [21/Oct/2024 21:48:30] "GET / HTTP/1.1" 200 -
+2024-10-21 21:48:30,495 INFO: 127.0.0.1 - - [21/Oct/2024 21:48:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 21:48:30,541 INFO: 127.0.0.1 - - [21/Oct/2024 21:48:30] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:48:30,545 INFO: 127.0.0.1 - - [21/Oct/2024 21:48:30] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 21:48:30,557 INFO: 127.0.0.1 - - [21/Oct/2024 21:48:30] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 21:48:30,902 INFO: 127.0.0.1 - - [21/Oct/2024 21:48:30] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:48:39,076 INFO: 127.0.0.1 - - [21/Oct/2024 21:48:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 21:49:56,767 INFO: Home page accessed
+2024-10-21 21:49:56,783 INFO: 127.0.0.1 - - [21/Oct/2024 21:49:56] "GET / HTTP/1.1" 200 -
+2024-10-21 21:49:56,848 INFO: 127.0.0.1 - - [21/Oct/2024 21:49:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 21:49:57,034 INFO: 127.0.0.1 - - [21/Oct/2024 21:49:57] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:49:57,154 INFO: 127.0.0.1 - - [21/Oct/2024 21:49:57] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 21:49:57,249 INFO: 127.0.0.1 - - [21/Oct/2024 21:49:57] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 21:49:57,644 INFO: 127.0.0.1 - - [21/Oct/2024 21:49:57] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:51:40,293 INFO: Home page accessed
+2024-10-21 21:51:40,309 INFO: 127.0.0.1 - - [21/Oct/2024 21:51:40] "GET / HTTP/1.1" 200 -
+2024-10-21 21:51:40,340 INFO: 127.0.0.1 - - [21/Oct/2024 21:51:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-21 21:51:40,559 INFO: 127.0.0.1 - - [21/Oct/2024 21:51:40] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:51:40,653 INFO: 127.0.0.1 - - [21/Oct/2024 21:51:40] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 21:51:40,715 INFO: 127.0.0.1 - - [21/Oct/2024 21:51:40] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 21:51:41,059 INFO: 127.0.0.1 - - [21/Oct/2024 21:51:41] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:54:05,224 INFO: Home page accessed
+2024-10-21 21:54:05,225 INFO: 127.0.0.1 - - [21/Oct/2024 21:54:05] "GET / HTTP/1.1" 200 -
+2024-10-21 21:54:05,267 INFO: 127.0.0.1 - - [21/Oct/2024 21:54:05] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-10-21 21:54:05,493 INFO: 127.0.0.1 - - [21/Oct/2024 21:54:05] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-21 21:54:05,578 INFO: 127.0.0.1 - - [21/Oct/2024 21:54:05] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-21 21:54:05,587 INFO: 127.0.0.1 - - [21/Oct/2024 21:54:05] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-21 21:54:05,587 INFO: 127.0.0.1 - - [21/Oct/2024 21:54:05] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-21 21:54:05,933 INFO: 127.0.0.1 - - [21/Oct/2024 21:54:05] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2024-10-23 10:11:13,602 INFO: Secret key loaded successfully
+2024-10-23 10:11:14,352 INFO: Starting Flask application
+2024-10-23 10:11:14,430 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-23 10:11:14,430 INFO: [33mPress CTRL+C to quit[0m
+2024-10-23 10:11:14,430 INFO:  * Restarting with stat
+2024-10-23 10:11:14,978 INFO: Secret key loaded successfully
+2024-10-23 10:11:15,181 INFO: Starting Flask application
+2024-10-23 10:11:15,197 WARNING:  * Debugger is active!
+2024-10-23 10:11:15,197 INFO:  * Debugger PIN: 471-119-761
+2024-10-23 10:11:39,336 INFO: Home page accessed
+2024-10-23 10:11:39,410 INFO: 127.0.0.1 - - [23/Oct/2024 10:11:39] "GET / HTTP/1.1" 200 -
+2024-10-23 10:11:39,745 INFO: 127.0.0.1 - - [23/Oct/2024 10:11:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-10-23 10:11:39,761 INFO: 127.0.0.1 - - [23/Oct/2024 10:11:39] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-10-23 10:11:39,761 INFO: 127.0.0.1 - - [23/Oct/2024 10:11:39] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-10-23 10:11:39,761 INFO: 127.0.0.1 - - [23/Oct/2024 10:11:39] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-23 10:11:39,986 INFO: 127.0.0.1 - - [23/Oct/2024 10:11:39] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-23 10:11:39,994 INFO: 127.0.0.1 - - [23/Oct/2024 10:11:39] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-23 10:11:40,074 INFO: 127.0.0.1 - - [23/Oct/2024 10:11:40] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-10-23 10:16:56,666 INFO: Home page accessed
+2024-10-23 10:16:56,681 INFO: 127.0.0.1 - - [23/Oct/2024 10:16:56] "GET / HTTP/1.1" 200 -
+2024-10-23 10:16:56,728 INFO: 127.0.0.1 - - [23/Oct/2024 10:16:56] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-10-23 10:16:56,759 INFO: 127.0.0.1 - - [23/Oct/2024 10:16:56] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-10-23 10:16:56,759 INFO: 127.0.0.1 - - [23/Oct/2024 10:16:56] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-10-23 10:16:56,884 INFO: 127.0.0.1 - - [23/Oct/2024 10:16:56] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-10-23 10:16:56,884 INFO: 127.0.0.1 - - [23/Oct/2024 10:16:56] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-10-23 10:16:56,884 INFO: 127.0.0.1 - - [23/Oct/2024 10:16:56] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-10-23 10:16:56,900 INFO: 127.0.0.1 - - [23/Oct/2024 10:16:56] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-11-22 20:40:26,343 INFO: Secret key loaded successfully
+2024-11-22 20:40:29,092 INFO: Starting Flask application
+2024-11-22 20:40:29,391 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-22 20:40:29,391 INFO: [33mPress CTRL+C to quit[0m
+2024-11-22 20:40:29,431 INFO:  * Restarting with stat
+2024-11-22 20:40:33,494 INFO: Secret key loaded successfully
+2024-11-22 20:40:35,212 INFO: Starting Flask application
+2024-11-22 20:40:35,260 WARNING:  * Debugger is active!
+2024-11-22 20:40:35,268 INFO:  * Debugger PIN: 104-018-685
+2024-11-22 20:40:36,699 INFO: Home page accessed
+2024-11-22 20:40:36,793 INFO: 127.0.0.1 - - [22/Nov/2024 20:40:36] "GET / HTTP/1.1" 200 -
+2024-11-22 20:40:37,304 INFO: 127.0.0.1 - - [22/Nov/2024 20:40:37] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-22 20:40:37,319 INFO: 127.0.0.1 - - [22/Nov/2024 20:40:37] "GET /static/images/spinner.gif HTTP/1.1" 200 -
+2024-11-22 20:40:37,399 INFO: 127.0.0.1 - - [22/Nov/2024 20:40:37] "GET /static/images/upload-icon.png HTTP/1.1" 200 -
+2024-11-22 20:40:37,458 INFO: 127.0.0.1 - - [22/Nov/2024 20:40:37] "GET /static/images/github-icon.jpeg HTTP/1.1" 200 -
+2024-11-22 20:40:37,546 INFO: 127.0.0.1 - - [22/Nov/2024 20:40:37] "GET /static/scripts.js HTTP/1.1" 200 -
+2024-11-22 20:40:37,546 INFO: 127.0.0.1 - - [22/Nov/2024 20:40:37] "GET /static/images/aibg.webp HTTP/1.1" 200 -
+2024-11-22 20:40:37,558 INFO: 127.0.0.1 - - [22/Nov/2024 20:40:37] "GET /static/images/linkedin-icon.png HTTP/1.1" 200 -
+2024-11-22 20:40:37,707 INFO: 127.0.0.1 - - [22/Nov/2024 20:40:37] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2024-11-22 20:41:17,435 INFO: Message encrypted successfully
+2024-11-22 20:41:17,435 INFO: File Badge_New.png uploaded and message encrypted
+2024-11-22 20:41:17,542 INFO: Image 'uploads\Badge_New.png' opened for encoding.
+2024-11-22 20:41:17,720 INFO: Secret data successfully encoded into 'uploads\encoded_Badge_New.png'.
+2024-11-22 20:41:17,720 INFO: Image Badge_New.png encoded successfully
+2024-11-22 20:41:17,737 INFO: 127.0.0.1 - - [22/Nov/2024 20:41:17] "POST /encode HTTP/1.1" 200 -
+2024-11-22 20:41:44,153 INFO: Image 'uploads\encoded_Badge_New.png' opened for decoding.
+2024-11-22 20:41:51,135 INFO: Secret data successfully decoded from 'uploads\encoded_Badge_New.png'.
+2024-11-22 20:41:51,158 INFO: Message decoded from image encoded_Badge_New.png
+2024-11-22 20:41:51,158 INFO: Message decrypted successfully
+2024-11-22 20:41:51,158 INFO: Message decrypted from image encoded_Badge_New.png
+2024-11-22 20:41:51,158 INFO: 127.0.0.1 - - [22/Nov/2024 20:41:51] "POST /decode HTTP/1.1" 200 -
+2024-11-23 09:26:57,755 INFO: Secret key loaded successfully
+2024-11-23 09:26:59,803 INFO: Starting Flask application
+2024-11-23 09:26:59,944 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-23 09:26:59,944 INFO: [33mPress CTRL+C to quit[0m
+2024-11-23 09:26:59,944 INFO:  * Restarting with stat
+2024-11-23 09:27:10,140 INFO: Secret key loaded successfully
+2024-11-23 09:27:10,336 INFO: Starting Flask application
+2024-11-23 09:27:10,366 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-11-23 09:27:10,366 INFO: [33mPress CTRL+C to quit[0m
+2024-11-23 09:27:10,376 INFO:  * Restarting with stat
+2024-11-23 09:27:11,080 INFO: Secret key loaded successfully
+2024-11-23 09:27:11,380 INFO: Starting Flask application
+2024-11-23 09:27:11,402 WARNING:  * Debugger is active!
+2024-11-23 09:27:11,410 INFO:  * Debugger PIN: 104-018-685
+2024-11-23 09:27:22,682 INFO: Home page accessed
+2024-11-23 09:27:22,735 INFO: 127.0.0.1 - - [23/Nov/2024 09:27:22] "GET / HTTP/1.1" 200 -
+2024-11-23 09:27:22,901 INFO: 127.0.0.1 - - [23/Nov/2024 09:27:22] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-23 09:27:22,901 INFO: 127.0.0.1 - - [23/Nov/2024 09:27:22] "GET /static/images/spinner.gif HTTP/1.1" 200 -
+2024-11-23 09:27:22,952 INFO: 127.0.0.1 - - [23/Nov/2024 09:27:22] "GET /static/images/linkedin-icon.png HTTP/1.1" 200 -
+2024-11-23 09:27:22,992 INFO: 127.0.0.1 - - [23/Nov/2024 09:27:22] "GET /static/scripts.js HTTP/1.1" 200 -
+2024-11-23 09:27:23,040 INFO: 127.0.0.1 - - [23/Nov/2024 09:27:23] "GET /static/images/upload-icon.png HTTP/1.1" 200 -
+2024-11-23 09:27:23,040 INFO: 127.0.0.1 - - [23/Nov/2024 09:27:23] "GET /static/images/github-icon.jpeg HTTP/1.1" 200 -
+2024-11-23 09:27:23,066 INFO: 127.0.0.1 - - [23/Nov/2024 09:27:23] "GET /static/images/aibg.webp HTTP/1.1" 200 -
+2024-11-23 09:29:46,451 INFO: Image 'uploads\encoded_Badge_New.png' opened for decoding.
+2024-11-23 09:29:48,808 INFO: Secret data successfully decoded from 'uploads\encoded_Badge_New.png'.
+2024-11-23 09:29:48,824 INFO: Message decoded from image encoded_Badge_New.png
+2024-11-23 09:29:48,929 INFO: Message decrypted successfully
+2024-11-23 09:29:48,929 INFO: Message decrypted from image encoded_Badge_New.png
+2024-11-23 09:29:48,929 INFO: 127.0.0.1 - - [23/Nov/2024 09:29:48] "POST /decode HTTP/1.1" 200 -
+2024-11-23 09:29:57,032 INFO: Home page accessed
+2024-11-23 09:29:57,032 INFO: 127.0.0.1 - - [23/Nov/2024 09:29:57] "GET / HTTP/1.1" 200 -
+2024-11-23 09:29:57,081 INFO: 127.0.0.1 - - [23/Nov/2024 09:29:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-23 09:29:57,089 INFO: 127.0.0.1 - - [23/Nov/2024 09:29:57] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2024-11-23 09:29:57,109 INFO: 127.0.0.1 - - [23/Nov/2024 09:29:57] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2024-11-23 09:29:57,113 INFO: 127.0.0.1 - - [23/Nov/2024 09:29:57] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2024-11-23 09:29:57,121 INFO: 127.0.0.1 - - [23/Nov/2024 09:29:57] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2024-11-23 09:29:57,129 INFO: 127.0.0.1 - - [23/Nov/2024 09:29:57] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2024-11-23 09:29:57,146 INFO: 127.0.0.1 - - [23/Nov/2024 09:29:57] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2024-11-23 09:30:36,547 INFO: Message encrypted successfully
+2024-11-23 09:30:36,547 INFO: File universityun.png uploaded and message encrypted
+2024-11-23 09:30:36,582 INFO: Image 'uploads\universityun.png' opened for encoding.
+2024-11-23 09:30:36,875 INFO: Secret data successfully encoded into 'uploads\encoded_universityun.png'.
+2024-11-23 09:30:36,875 INFO: Image universityun.png encoded successfully
+2024-11-23 09:30:36,883 INFO: 127.0.0.1 - - [23/Nov/2024 09:30:36] "POST /encode HTTP/1.1" 200 -
+2025-01-24 10:46:34,729 INFO: Secret key loaded successfully
+2025-01-24 10:46:36,291 INFO: Starting Flask application
+2025-01-24 10:46:36,389 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-24 10:46:36,390 INFO: [33mPress CTRL+C to quit[0m
+2025-01-24 10:46:36,393 INFO:  * Restarting with stat
+2025-01-24 10:46:37,285 INFO: Secret key loaded successfully
+2025-01-24 10:46:37,560 INFO: Starting Flask application
+2025-01-24 10:46:37,576 WARNING:  * Debugger is active!
+2025-01-24 10:46:37,584 INFO:  * Debugger PIN: 104-018-685
+2025-01-24 10:46:42,658 INFO: Home page accessed
+2025-01-24 10:46:42,876 INFO: 127.0.0.1 - - [24/Jan/2025 10:46:42] "GET / HTTP/1.1" 200 -
+2025-01-24 10:46:43,175 INFO: 127.0.0.1 - - [24/Jan/2025 10:46:43] "GET /static/images/spinner.gif HTTP/1.1" 200 -
+2025-01-24 10:46:43,177 INFO: 127.0.0.1 - - [24/Jan/2025 10:46:43] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-01-24 10:46:43,237 INFO: 127.0.0.1 - - [24/Jan/2025 10:46:43] "GET /static/images/upload-icon.png HTTP/1.1" 200 -
+2025-01-24 10:46:43,283 INFO: 127.0.0.1 - - [24/Jan/2025 10:46:43] "GET /static/images/linkedin-icon.png HTTP/1.1" 200 -
+2025-01-24 10:46:43,291 INFO: 127.0.0.1 - - [24/Jan/2025 10:46:43] "GET /static/images/aibg.webp HTTP/1.1" 200 -
+2025-01-24 10:46:43,373 INFO: 127.0.0.1 - - [24/Jan/2025 10:46:43] "GET /static/images/github-icon.jpeg HTTP/1.1" 200 -
+2025-01-24 10:46:43,438 INFO: 127.0.0.1 - - [24/Jan/2025 10:46:43] "GET /static/scripts.js HTTP/1.1" 200 -
+2025-01-24 10:46:43,546 INFO: 127.0.0.1 - - [24/Jan/2025 10:46:43] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2025-01-24 10:47:14,722 INFO: Image 'uploads\encoded_IMG_20250116_143700.jpg' opened for decoding.
+2025-01-24 10:47:47,451 INFO: Secret data successfully decoded from 'uploads\encoded_IMG_20250116_143700.jpg'.
+2025-01-24 10:47:47,580 INFO: Message decoded from image encoded_IMG_20250116_143700.jpg
+2025-01-24 10:47:47,589 ERROR: Error decrypting message: 
+2025-01-24 10:47:47,589 ERROR: Error decoding image encoded_IMG_20250116_143700.jpg: 
+2025-01-24 10:47:47,595 INFO: 127.0.0.1 - - [24/Jan/2025 10:47:47] "[35m[1mPOST /decode HTTP/1.1[0m" 500 -
+2025-01-24 10:49:20,056 INFO: Message encrypted successfully
+2025-01-24 10:49:20,056 INFO: File Screenshot_2025-01-23_211842.png uploaded and message encrypted
+2025-01-24 10:49:20,075 INFO: Image 'uploads\Screenshot_2025-01-23_211842.png' opened for encoding.
+2025-01-24 10:49:20,095 INFO: Secret data successfully encoded into 'uploads\encoded_Screenshot_2025-01-23_211842.png'.
+2025-01-24 10:49:20,095 INFO: Image Screenshot_2025-01-23_211842.png encoded successfully
+2025-01-24 10:49:20,104 INFO: 127.0.0.1 - - [24/Jan/2025 10:49:20] "POST /encode HTTP/1.1" 200 -
+2025-01-24 10:49:32,440 INFO: Home page accessed
+2025-01-24 10:49:32,444 INFO: 127.0.0.1 - - [24/Jan/2025 10:49:32] "GET / HTTP/1.1" 200 -
+2025-01-24 10:49:32,500 INFO: 127.0.0.1 - - [24/Jan/2025 10:49:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-24 10:49:32,529 INFO: 127.0.0.1 - - [24/Jan/2025 10:49:32] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2025-01-24 10:49:32,534 INFO: 127.0.0.1 - - [24/Jan/2025 10:49:32] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2025-01-24 10:49:32,541 INFO: 127.0.0.1 - - [24/Jan/2025 10:49:32] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2025-01-24 10:49:32,547 INFO: 127.0.0.1 - - [24/Jan/2025 10:49:32] "[36mGET /static/images/aibg.webp HTTP/1.1[0m" 304 -
+2025-01-24 10:49:32,561 INFO: 127.0.0.1 - - [24/Jan/2025 10:49:32] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2025-01-24 10:49:32,575 INFO: 127.0.0.1 - - [24/Jan/2025 10:49:32] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2025-01-24 10:49:39,955 INFO: Image 'uploads\encode_Sachin.png' opened for decoding.
+2025-01-24 10:49:42,355 INFO: Secret data successfully decoded from 'uploads\encode_Sachin.png'.
+2025-01-24 10:49:42,368 INFO: Message decoded from image encode_Sachin.png
+2025-01-24 10:49:42,369 INFO: Message decrypted successfully
+2025-01-24 10:49:42,369 INFO: Message decrypted from image encode_Sachin.png
+2025-01-24 10:49:42,369 INFO: 127.0.0.1 - - [24/Jan/2025 10:49:42] "POST /decode HTTP/1.1" 200 -
+2025-01-24 10:49:58,509 INFO: Home page accessed
+2025-01-24 10:49:58,510 INFO: 127.0.0.1 - - [24/Jan/2025 10:49:58] "GET / HTTP/1.1" 200 -
+2025-01-24 10:49:58,552 INFO: 127.0.0.1 - - [24/Jan/2025 10:49:58] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2025-01-24 10:49:58,555 INFO: 127.0.0.1 - - [24/Jan/2025 10:49:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-24 10:49:58,573 INFO: 127.0.0.1 - - [24/Jan/2025 10:49:58] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2025-01-24 10:49:58,597 INFO: 127.0.0.1 - - [24/Jan/2025 10:49:58] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2025-01-24 10:49:58,598 INFO: 127.0.0.1 - - [24/Jan/2025 10:49:58] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2025-01-24 10:49:58,600 INFO: 127.0.0.1 - - [24/Jan/2025 10:49:58] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2025-01-24 10:49:58,700 INFO: 127.0.0.1 - - [24/Jan/2025 10:49:58] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2025-01-24 10:50:22,201 INFO: Message encrypted successfully
+2025-01-24 10:50:22,202 INFO: File Screenshot_598.png uploaded and message encrypted
+2025-01-24 10:50:22,252 INFO: Image 'uploads\Screenshot_598.png' opened for encoding.
+2025-01-24 10:50:22,423 INFO: Secret data successfully encoded into 'uploads\encoded_Screenshot_598.png'.
+2025-01-24 10:50:22,425 INFO: Image Screenshot_598.png encoded successfully
+2025-01-24 10:50:22,443 INFO: 127.0.0.1 - - [24/Jan/2025 10:50:22] "POST /encode HTTP/1.1" 200 -
+2025-01-24 10:50:46,522 INFO: Image 'uploads\Encode_ABS.png' opened for decoding.
+2025-01-24 10:50:57,162 INFO: Secret data successfully decoded from 'uploads\Encode_ABS.png'.
+2025-01-24 10:50:57,222 INFO: Message decoded from image Encode_ABS.png
+2025-01-24 10:50:57,225 INFO: Message decrypted successfully
+2025-01-24 10:50:57,225 INFO: Message decrypted from image Encode_ABS.png
+2025-01-24 10:50:57,226 INFO: 127.0.0.1 - - [24/Jan/2025 10:50:57] "POST /decode HTTP/1.1" 200 -
+2025-01-24 10:51:31,179 INFO: Home page accessed
+2025-01-24 10:51:31,181 INFO: 127.0.0.1 - - [24/Jan/2025 10:51:31] "GET / HTTP/1.1" 200 -
+2025-01-24 10:51:31,220 INFO: 127.0.0.1 - - [24/Jan/2025 10:51:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2025-01-24 10:51:31,250 INFO: 127.0.0.1 - - [24/Jan/2025 10:51:31] "[36mGET /static/images/github-icon.jpeg HTTP/1.1[0m" 304 -
+2025-01-24 10:51:31,269 INFO: 127.0.0.1 - - [24/Jan/2025 10:51:31] "[36mGET /static/images/linkedin-icon.png HTTP/1.1[0m" 304 -
+2025-01-24 10:51:31,278 INFO: 127.0.0.1 - - [24/Jan/2025 10:51:31] "[36mGET /static/scripts.js HTTP/1.1[0m" 304 -
+2025-01-24 10:51:31,281 INFO: 127.0.0.1 - - [24/Jan/2025 10:51:31] "[36mGET /static/images/upload-icon.png HTTP/1.1[0m" 304 -
+2025-01-24 10:51:31,302 INFO: 127.0.0.1 - - [24/Jan/2025 10:51:31] "[36mGET /static/images/spinner.gif HTTP/1.1[0m" 304 -
+2025-03-26 12:08:23,057 INFO: Secret key loaded successfully
+2025-03-26 12:08:24,192 INFO: Starting Flask application
+2025-03-26 12:08:24,264 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-26 12:08:24,264 INFO: [33mPress CTRL+C to quit[0m
+2025-03-26 12:08:24,306 INFO:  * Restarting with watchdog (windowsapi)
+2025-03-26 12:08:25,019 INFO: Secret key loaded successfully
+2025-03-26 12:08:25,293 INFO: Starting Flask application
+2025-03-26 12:08:25,309 WARNING:  * Debugger is active!
+2025-03-26 12:08:25,315 INFO:  * Debugger PIN: 104-018-685
+2025-03-26 12:09:15,205 INFO: Home page accessed
+2025-03-26 12:09:15,313 INFO: 127.0.0.1 - - [26/Mar/2025 12:09:15] "GET / HTTP/1.1" 200 -
+2025-03-26 12:09:15,681 INFO: 127.0.0.1 - - [26/Mar/2025 12:09:15] "GET /static/css/styles.css HTTP/1.1" 200 -
+2025-03-26 12:09:15,694 INFO: 127.0.0.1 - - [26/Mar/2025 12:09:15] "GET /static/images/linkedin-icon.png HTTP/1.1" 200 -
+2025-03-26 12:09:15,717 INFO: 127.0.0.1 - - [26/Mar/2025 12:09:15] "GET /static/images/github-icon.jpeg HTTP/1.1" 200 -
+2025-03-26 12:09:15,804 INFO: 127.0.0.1 - - [26/Mar/2025 12:09:15] "GET /static/images/aibg.webp HTTP/1.1" 200 -
+2025-03-26 12:09:15,914 INFO: 127.0.0.1 - - [26/Mar/2025 12:09:15] "GET /static/scripts.js HTTP/1.1" 200 -
+2025-03-26 12:09:15,925 INFO: 127.0.0.1 - - [26/Mar/2025 12:09:15] "GET /static/images/spinner.gif HTTP/1.1" 200 -
+2025-03-26 12:09:16,040 INFO: 127.0.0.1 - - [26/Mar/2025 12:09:16] "GET /static/images/upload-icon.png HTTP/1.1" 200 -
+2025-03-26 12:09:16,152 INFO: 127.0.0.1 - - [26/Mar/2025 12:09:16] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2025-06-17 22:01:05,222 INFO: Secret key loaded successfully
+2025-06-17 22:01:06,810 INFO: Starting Flask application
+2025-06-17 22:01:06,930 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-17 22:01:06,931 INFO: [33mPress CTRL+C to quit[0m
+2025-06-17 22:01:06,986 INFO:  * Restarting with watchdog (windowsapi)
+2025-06-17 22:01:08,037 INFO: Secret key loaded successfully
+2025-06-17 22:01:08,471 INFO: Starting Flask application
+2025-06-17 22:01:08,496 WARNING:  * Debugger is active!
+2025-06-17 22:01:08,505 INFO:  * Debugger PIN: 104-018-685
+2025-06-17 22:01:24,384 INFO: Secret key loaded successfully
+2025-06-17 22:01:24,786 INFO: Starting Flask application
+2025-06-17 22:01:24,859 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-17 22:01:24,860 INFO: [33mPress CTRL+C to quit[0m
+2025-06-17 22:01:24,896 INFO:  * Restarting with watchdog (windowsapi)
+2025-06-17 22:01:25,955 INFO: Secret key loaded successfully
+2025-06-17 22:01:26,374 INFO: Starting Flask application
+2025-06-17 22:01:26,406 WARNING:  * Debugger is active!
+2025-06-17 22:01:26,413 INFO:  * Debugger PIN: 104-018-685
